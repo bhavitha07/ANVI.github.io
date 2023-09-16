@@ -1,0 +1,72 @@
+<html>
+    <body>
+
+        <style>
+        
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                background: rgb(214, 63, 96);
+                
+            }
+            button {
+                position: absolute;
+                
+            }
+        </style>
+        <style>
+            .wrapper{
+                position: relative;
+                width:600px;
+                height: 400px;
+                background: rgb(247, 244, 244);
+                border-radius:100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+        <style>
+            .yes-btn {
+                  background-color: pink;
+                  height:40px;
+                  width: 70px;
+                  border-radius: 70px;
+                  border-color: rgb(212, 206, 121);
+                  cursor: pointer;
+                  margin-left:-15%;
+                  
+
+
+                }
+            .no-btn {
+              background-color: rgb(206, 201, 201);
+              height:40px;
+              width: 70px;
+              border-radius: 70px;
+              border-color: aqua;
+              cursor: pointer;
+              margin-left: 2%;
+              
+              
+
+                }    
+            .yes-btn:hover{
+                opacity: 0.7;
+
+            }    
+        </style>
+        <div class="wrapper">
+            <h2  align ="center" class ="question" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" ><font color="red"><b> Do you Love Me ?</font></b></h2>
+            <div class="btn-group">
+                <h3 "><button class="yes-btn">Yes &#128525;</button>
+                <button  class="no-btn">No &#128552;</button></h3>
+
+            </div> 
+        </div>
+        <script src="button effect.js"></script>
+    </body>
+</html>
